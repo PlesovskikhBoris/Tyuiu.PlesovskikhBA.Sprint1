@@ -28,9 +28,8 @@ namespace Tyuiu.PlesovskikhBA.Sprint1.Task5.V7
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Время на часах(в часах): " + ds.AngleToHoursMinutes(angle));
+            Console.WriteLine("Время на часах(в часах): " + Convert.ToInt32(ds.AngleToHoursMinutes(angle)));
             Console.ReadLine();
-
         }
     }
 }

@@ -12,11 +12,11 @@ namespace Tyuiu.PlesovskikhBA.Sprint1.Task5.V7.Test
         [TestMethod]
         public void ValidExpression()
         {
-            double f = 180;
+            double angle = 45;
             DataService ds = new DataService();
-            double res = ds.AngleToHoursMinutes(f);
+            double res = ds.AngleToHoursMinutes(angle);
             int result = Convert.ToInt32(res);
-            int wait = 6;
+            int wait = 1;
             Assert.AreEqual(wait, result);
         }
     }

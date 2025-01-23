@@ -6,7 +6,7 @@ namespace Tyuiu.PlesovskikhBA.Sprint1.Task5.V7.Lib
     {
         public int AngleToHoursMinutes(double angle)
         {
-            double res = angle / 30;
+            double res = Math.Truncate(angle / 30);
             return Convert.ToInt32(res);
         }
     }
